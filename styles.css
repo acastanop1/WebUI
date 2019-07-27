@@ -1,0 +1,66 @@
+body {
+    background-color: #FEF5DA;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color: #30182a;
+    font-size: 4.5em;
+}
+
+.text-description{
+    color: #30182a;
+    font-size: 2em;
+    font-weight: 300; 
+}
+
+article{
+    margin-top: 80px; 
+}
+
+header{
+    margin-top: 20px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    width: 120px;
+}
+
+nav ul {
+    padding: 0px; 
+    margin: 10px 10px; 
+}
+
+nav ul li{
+    list-style: none; 
+    display: inline;
+    margin: 0px 20px;
+    text-transform: uppercase; 
+    font-weight: 600; 
+    color: #1C131D;
+}
+
+.main-button{
+    padding: 15px 15px;
+    color:#30182a;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-radius: 7px;
+    width: 220px;  
+    text-transform: uppercase; 
+}
+
+#button-hire{
+    background-color: #FF6B72;
+    border: 1px solid #FF6B72;
+}
+#button-works{
+    background-color: transparent;
+    border: 1px solid #30182a; 
+    margin-left: 10px; 
+}
